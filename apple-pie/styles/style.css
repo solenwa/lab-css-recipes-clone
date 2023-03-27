@@ -15,6 +15,16 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-weight: lighter;
 }
 
+h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
@@ -22,3 +32,77 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  width: 100%;
+  height: 30rem;
+  background-image: url("/images/apple-pie.jpg");
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.intro {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 10%;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+
+.ingredients-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.ingredients-img img {
+  width: 40%;
+}
+
+
+.ingredients-text {
+  border-top: solid black;
+  padding-top: 5%;
+}
+
+.ingredients ul {
+  list-style: ' - ' inside;
+}
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+}
+
+.directions-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.directions-img img {
+  width: 35%;
+}
+
+.directions-text {
+  border-top: solid black;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
